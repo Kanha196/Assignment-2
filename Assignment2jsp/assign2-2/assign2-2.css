@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: radial-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.4)),url(back2.jpg);
+    width:100%;
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+}
+.main{
+    border: 2px solid #626567;
+    width: 46%;
+    height: 98vh;
+    /**position :absolute;
+    left=0;**/
+    margin: auto;
+}
+.same{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    opacity: 0.6;
+    right: 0;
+}
+#red{
+    background-image: linear-gradient(#F5B7B1,#5499C7);
+    float: right;
+    
+}
+#green{
+    background-image:linear-gradient(#884EA0,#F4D03F);
+    top: 100px;
+    float: right;
+
+}
+#yellow{
+    background-image:linear-gradient(#16A085,#A3E4D7);
+    top: 200px;
+    text-align: center;
+    font-size: 15px;
+    float: right;
+    font-style: oblique;
+    padding:20px;
+    color: white;
+    box-sizing: border-box;
+}
+#limegreen{
+    background-image:linear-gradient(#EDBB99,#D4AC0D);
+    top: 300px;
+    text-align: center;
+    font-size: 15px;
+    font-style: oblique;
+    float: right;
+    padding:20px;
+    color: white;
+    box-sizing: border-box;
+}
+#black{
+    background-image: linear-gradient(#FF5722,#3F51B5);
+    top: 400px;
+    text-align: center;
+    font-size: 15px;
+    font-style: oblique;
+    float: right;
+    padding:20px;
+    color: white;
+    box-sizing: border-box;
+}
+#sky{
+    background-image:linear-gradient(#FFE082,#EC407A);
+   top: 500px;
+   text-align: center;
+   font-size: 15px;
+   font-style: oblique;
+   float: right;
+   padding:20px;
+   color: white;
+   box-sizing: border-box;
+}
+#blue{
+    background-image:linear-gradient(#01579B,#FF7043);
+    float:left;
+    top: 600px
+}

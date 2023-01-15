@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.marq{
+    border: 2px hidden;
+    width: 300px;
+    margin-top: 100px;
+    float: left;
+}
+.marq h1{
+    font-size: 30px;
+    font-style: italic;
+    color: #EDBB99;
+    
+}
+.main{
+    border: 2px solid #626567;
+    width: 46%;
+    height: 98vh;
+    /**position :absolute;
+    left=0;**/
+    margin: auto;
+}
+.same{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 0;
+    opacity: 0.6;
+}
+#red{
+    background-image: linear-gradient(#F5B7B1,#5499C7);
+}
+#green{
+    background-image:linear-gradient(#884EA0,#F4D03F);
+    left: 100px;
+
+}
+#yellow{
+    background-image:linear-gradient(#16A085,#A3E4D7);
+    left: 200px;
+    text-align: center;
+    font-size: 15px;
+    font-style: oblique;
+    padding:20px;
+    color: white;
+    box-sizing: border-box;
+}
+#limegreen{
+    background-image:linear-gradient(#EDBB99,#D4AC0D);
+    left: 300px;
+    text-align: center;
+    font-size: 15px;
+    font-style: oblique;
+    padding:20px;
+    color: white;
+    box-sizing: border-box;
+}
+#black{
+    background-image: linear-gradient(#FF5722,#3F51B5);
+    left: 400px;
+    text-align: center;
+    font-size: 15px;
+    font-style: oblique;
+    padding:20px;
+    color: white;
+    box-sizing: border-box;
+}
+#sky{
+    background-image:linear-gradient(#FFE082,#EC407A);
+   left: 500px;
+   text-align: center;
+   font-size: 15px;
+   font-style: oblique;
+   padding:20px;
+   color: white;
+   box-sizing: border-box;
+}
+#blue{
+    background-image:linear-gradient(#01579B,#FF7043);
+    left: 600px;
+}
